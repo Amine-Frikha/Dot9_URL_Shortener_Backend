@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Amine-Frikha/Dot9_URL_Shortener_Backend/issues"
   },
-  "homepage": "https://github.com/Amine-Frikha/Dot9_URL_Shortener_Backend#readme"
+  "homepage": "https://github.com/Amine-Frikha/Dot9_URL_Shortener_Backend#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
