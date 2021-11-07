@@ -22,7 +22,7 @@
     "config": "^3.3.6",
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
-    "shortid": "^2.2.16",
+    "nanoid": "^2.1.11",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
