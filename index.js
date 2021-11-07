@@ -5,7 +5,6 @@ const app = express();
 
 // Connect to database
 connectDB();
-
 //Middleware that lets us accept json data into our API
 app.use(express.json());
 
