@@ -11,6 +11,8 @@ router.get('/:code', async (req, res) => {
     const url = await Url.findOne({ urlCode: req.params.code });
     //if the url exists then redirect to it, else show error
     if (url) {
+      url.clicks++
+      await url.save();
       return res.redirect(url.longUrl);
     } else {
       return res.status(404).json('No url found');
